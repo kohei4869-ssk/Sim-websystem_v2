@@ -84,25 +84,35 @@
 ```
 resources/
   views/
-    welcome.blade.php        # Vue（SimForm.vue）をマウントする入り口
-    index.blade.php          # 全案件の簡易一覧（開発初期の名残、現在未使用）
+    welcome.blade.php
+    index.blade.php
     requests/
-      department.blade.php   # 部署別ダッシュボード（依頼一覧・集計・見積り入力）
+      department.blade.php
   js/
     components/
-      SimForm.vue            # 依頼者用の申請フォーム本体
+      SimForm.vue
 
 app/
   Http/
     Controllers/
-      SubmitController.php   # 申請フォームの受付・部署振り分け・ダッシュボード用データ組み立て
+      SubmitController.php
 
 routes/
-  web.php                    # 画面表示用ルーティング
+  web.php
 
 public/
-  index.php                  # Laravelのフロントコントローラ
+  index.php
 ```
+
+| ファイル | 役割 |
+|---|---|
+| `resources/views/welcome.blade.php` | Vue（SimForm.vue）をマウントする入り口 |
+| `resources/views/index.blade.php` | 全案件の簡易一覧（開発初期の名残、現在未使用） |
+| `resources/views/requests/department.blade.php` | 部署別ダッシュボード（依頼一覧・集計・見積り入力） |
+| `resources/js/components/SimForm.vue` | 依頼者用の申請フォーム本体 |
+| `app/Http/Controllers/SubmitController.php` | 申請フォームの受付・部署振り分け・ダッシュボード用データ組み立て |
+| `routes/web.php` | 画面表示用ルーティング |
+| `public/index.php` | Laravelのフロントコントローラ |
 
 > コード中には、実装の意図や処理の流れを説明する日本語コメントを詳しく入れています。学習過程でAIと対話しながら理解を深めた内容を、そのままコメントとして残しています。
 

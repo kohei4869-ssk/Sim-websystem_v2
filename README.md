@@ -1,7 +1,7 @@
 # SIM FORM
 
 広告出稿の**見積もり・シミュレーション作成**における、依頼・管理システムです。
-元々は自身でJavaScript＋GAS（Google Apps Script）＋Notionを使って構築した仕組みでしたが、PHP（Laravel）・JavaScript（jQuery/Vue.js）・MySQLで作り直しました。
+元々は自身でJavaScript＋GAS（Google Apps Script）＋Notionを使って構築した仕組みでしたが、自習も兼ねてPHP（Laravel）・JavaScript（jQuery/Vue.js）・MySQLでクローン開発しました。
 
 > 本リポジトリは学習・ポートフォリオ目的のクローン開発であり、実際の業務データ・顧客情報・Webhook URLなどは一切含まれていません。
 

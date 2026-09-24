@@ -104,15 +104,16 @@ public/
   index.php
 ```
 
-| ファイル | 役割 |
-|---|---|
-| `resources/views/welcome.blade.php` | Vue（SimForm.vue）をマウントする入り口 |
-| `resources/views/index.blade.php` | 全案件の簡易一覧（開発初期の名残、現在未使用） |
-| `resources/views/requests/department.blade.php` | 部署別ダッシュボード（依頼一覧・集計・見積り入力） |
-| `resources/js/components/SimForm.vue` | 依頼者用の申請フォーム本体 |
-| `app/Http/Controllers/SubmitController.php` | 申請フォームの受付・部署振り分け・ダッシュボード用データ組み立て |
-| `routes/web.php` | 画面表示用ルーティング |
-| `public/index.php` | Laravelのフロントコントローラ |
+<table>
+<tr><th>フォルダ</th><th>ファイル</th><th>役割</th></tr>
+<tr><td rowspan="3"><code>resources/views/</code></td><td><code>welcome.blade.php</code></td><td>Vue（SimForm.vue）をマウントする入り口</td></tr>
+<tr><td><code>index.blade.php</code></td><td>全案件の簡易一覧（開発初期の名残、現在未使用）</td></tr>
+<tr><td><code>requests/department.blade.php</code></td><td>部署別ダッシュボード（依頼一覧・集計・見積り入力）</td></tr>
+<tr><td><code>resources/js/components/</code></td><td><code>SimForm.vue</code></td><td>依頼者用の申請フォーム本体</td></tr>
+<tr><td><code>app/Http/Controllers/</code></td><td><code>SubmitController.php</code></td><td>申請フォームの受付・部署振り分け・ダッシュボード用データ組み立て</td></tr>
+<tr><td><code>routes/</code></td><td><code>web.php</code></td><td>画面表示用ルーティング</td></tr>
+<tr><td><code>public/</code></td><td><code>index.php</code></td><td>Laravelのフロントコントローラ</td></tr>
+</table>
 
 > コード中には、実装の意図や処理の流れを説明する日本語コメントを詳しく入れています。学習過程でAIと対話しながら理解を深めた内容を、そのままコメントとして残しています。
 

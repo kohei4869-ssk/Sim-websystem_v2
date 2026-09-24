@@ -54,11 +54,14 @@
 
 ## 技術スタック
 
-| 言語 | フレームワーク／ライブラリ | 主な使用目的・役割 |
-|---|---|---|
-| PHP | Laravel | ルーティング・コントローラー・DB操作・画面生成・Slack Webhook通知など、サーバーサイド全体の処理 |
-| JavaScript | Vue.js<br>jQuery<br>Chart.js | Vue.js：依頼入力フォーム（SimForm.vue）のUI構築・入力状態の管理<br>jQuery：管理画面（department.blade.php）でのDOM操作・イベント処理・Ajax通信<br>Chart.js：管理画面のグラフ描画（月別推移・ステータス内訳など） |
-| SQL | MySQL | 依頼・案件・見積もりデータの蓄積・管理 |
+<table>
+<tr><th>言語</th><th>フレームワーク／ライブラリ</th><th>主な使用目的・役割</th></tr>
+<tr><td>PHP</td><td>Laravel</td><td>ルーティング・コントローラー・DB操作・画面生成・Slack Webhook通知など、サーバーサイド全体の処理</td></tr>
+<tr><td rowspan="3">JavaScript</td><td>Vue.js</td><td>依頼入力フォーム（SimForm.vue）のUI構築・入力状態の管理</td></tr>
+<tr><td>jQuery</td><td>管理画面（department.blade.php）でのDOM操作・イベント処理・Ajax通信</td></tr>
+<tr><td>Chart.js</td><td>管理画面のグラフ描画（月別推移・ステータス内訳など）</td></tr>
+<tr><td>SQL</td><td>MySQL</td><td>依頼・案件・見積もりデータの蓄積・管理</td></tr>
+</table>
 
 ## 業務フロー
 
